@@ -1,0 +1,51 @@
+* {
+  border: none;
+  text-align: center;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+}
+
+h1,
+h2 {
+  color: #ff1493;
+  width: 100%;
+  font-size: xx-large;
+}
+
+p {
+  color: #ff1493;
+  font-size: xx-large;
+}
+
+#seconds,
+#tens {
+  font-size: 2em;
+}
+
+button {
+  @include corners(5px);
+  background: black;
+  color: #ff1493;
+  border: solid 1px #ff1493;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+:hover {
+  @include transition;
+  background: #fff;
+  border: solid 1px #fff;
+  color: #008000;
+}
